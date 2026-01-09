@@ -1,6 +1,6 @@
 # cw_nato_tts
 
-Ein Skript um sich am Terminal cw ausgeben zu lassen was anschließend per TTS vorgelesen wird. Basiert auf dem cwkoch.lua Skript von Hanno zum CW erzeugen, zu finden hier: `https://github.com/silizium/crypto`. Nutzt aktuell espeak für TTS. Klingt zwar recht mechanisch, funktioniert aber fürs Erste.
+Ein Skript um sich am Terminal cw ausgeben zu lassen was anschließend per TTS vorgelesen wird. Basiert auf dem `cwkoch.lua` Skript von Hanno zum CW erzeugen, zu finden hier: `https://github.com/silizium/crypto`. Nutzt aktuell espeak für TTS. Klingt zwar recht mechanisch, funktioniert aber fürs Erste.
 
 ## Wie funktioniert es?
 
@@ -21,14 +21,14 @@ Hab ich nicht geschrieben, hab mit einer KI verhandelt und die hat das zusammen 
 
 ### Nur CW 
 
-* `./cwkoch.lua -k4 -n60 | cw -w12`: Lektion 4 mit 60 Zeichen (wie im Kurs) und Geschwindigkeit 12w PARIS
-* `./cwkoch.lua -alq -n60 | cw -w12`: Nur Buchstabe **_l_** und **_q_** für z.B. Einzeltraining
-* `./cwkoch.lua -k8 -c50 -n60 | cw -w12 | `: Lektion 8, aber nur mit 50% Anteil des neuen Buchstabens **_t_** (c50). So kann man sich ran tasten.  
-
-`-k`: sind die Lektionen von E13
-`-a`: lässt einzelne Buchstaben zu. So kann man sich seine eigene Reihenfolge zusammenstellen. Für häufigeres Vorkommen Buchstaben mehrfach angeben.
-`-n`: Geschwindigkeit. n60 sind 12 Gruppen bei 12WPM.
-`-c`: siehe Beispiel oben.
+- `./cwkoch.lua -k4 -n60 | cw -w12`: Lektion 4 mit 60 Zeichen (wie im Kurs) und Geschwindigkeit 12w PARIS
+- `./cwkoch.lua -alq -n60 | cw -w12`: Nur Buchstabe **_l_** und **_q_** für z.B. Einzeltraining
+- `./cwkoch.lua -k8 -c50 -n60 | cw -w12 | `: Lektion 8, aber nur mit 50% Anteil des neuen Buchstabens **_t_** (c50). So kann man sich ran tasten.  
+Parameter: 
+- `-k`: sind die Lektionen von E13
+- `-a`: lässt einzelne Buchstaben zu. So kann man sich seine eigene Reihenfolge zusammenstellen. Für häufigeres Vorkommen Buchstaben mehrfach angeben.
+- `-n`: Geschwindigkeit. n60 sind 12 Gruppen bei 12WPM.
+- `-c`: siehe Beispiel oben.
 
 Ansonsten einfach mal die Hilfe von `cwkoch.lua` bemühen. Da gibt es bestimmt noch mehr.
 
@@ -53,7 +53,7 @@ Schreibt den Output in die Textdatei 'tmp_output.txt' und bietet anschließend a
 
 Für weitere Übungen einfach die cwkoch Parameter anpassen.
 
-Ich habe für mich den letzten Befehl noch in ein run.sh script gepackt
+Ich habe für mich den letzten Befehl noch in ein `run.sh` script gepackt.
 
 Viel Spaß!
 
