@@ -14,7 +14,7 @@ Hab ich nicht geschrieben, hab mit einer KI verhandelt und die hat das zusammen 
 
 1. Ein bissl apt für Lua und espeak: `sudo apt install espeak-ng cw luajit lua-posix mbrola mbrola-en1`
 2. `cwkoch.lua` von hier holen und zum Laufen bringen```https://github.com/silizium/crypto```.
-3. Dafür sorgen das `nato_tts.py` und `cwkoch.lua` miteinander reden können (selbes Verzeichnis vielleicht?).     
+3. Dafür sorgen das `nato_tts.py` und `cwkoch.lua` miteinander reden können (selbes Verzeichnis vielleicht?). Effektiv braucht man aus Hannos Repo nur die Files `stable_sort.lua`, `ccrypt.lua` und `cwkoch.lua`. Es sollte also reichen wenn die alle mit dem Repo hier kombiniert werden.
 3. CW üben und fröhlich sein. Zettel und Stift nicht vergessen!
 
 ## Verwendung
